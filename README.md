@@ -1,19 +1,19 @@
 # Symfony 2 Tutorial
 
 ### Check
-####  Security
+#####  Security
 <code>php app/console security:check</code>
 
-#### Routes
+##### Routes
 <code>php app/console router:debug</code>
 
 -
 
 ### Generate
-#### New bundle
+##### New bundle
 <code>php app/console generate:bundle</code>
 
-#### New controller
+##### New controller
 <code>php app/console generate:controller</code>
 
 -
