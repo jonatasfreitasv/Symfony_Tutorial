@@ -1,5 +1,8 @@
 # Symfony 2 Tutorial
 
+### Generate new bundle
+<code>php app/console generate:bundle</code>
+
 ### Generate new controller
 <code>php app/console generate:controller</code>
 
