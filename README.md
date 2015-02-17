@@ -7,6 +7,7 @@
 #### Routes
 <code>php app/console router:debug</code>
 
+-
 
 ### Generate
 #### New bundle
@@ -15,6 +16,7 @@
 #### New controller
 <code>php app/console generate:controller</code>
 
+-
 
 ### Doctrine
 ##### New entity
