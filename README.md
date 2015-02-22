@@ -30,5 +30,7 @@
 
 #### Clear Cache
 <code>php app/console doctrine:cache:clear-metadata</code>
-<code>php app/console doctrine:cache:clear-query</code>  
+
+<code>php app/console doctrine:cache:clear-query</code>
+
 <code>php app/console doctrine:cache:clear-result</code>
