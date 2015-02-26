@@ -35,6 +35,10 @@
 
 <code>php app/console doctrine:cache:clear-result</code>
 
+##### Update Database Schema
+<code>php app/console doctrine:schema:update --force</code>
+
+
 
 ## Some solutions to problems
 
