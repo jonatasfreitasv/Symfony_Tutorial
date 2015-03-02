@@ -18,15 +18,6 @@
 
 -
 
-### Doctrine
-##### New entity
-<code>php app/console doctrine:generate:entity</code>
-
-##### Import existing database
-<code>php app/console doctrine:mapping:import AppBundle annotation</code>
-
-##### Generate geter and setters
-<code>php app/console doctrine:generate:entities AppBundle/Entity/</code>
 
 ##### Clear Cache
 <code>php app/console doctrine:cache:clear-metadata</code>
@@ -37,19 +28,3 @@
 
 ##### Update Database Schema
 <code>php app/console doctrine:schema:update --force</code>
-
-
-
-## Some solutions to problems
-
-### How to solve:
-
-###### ERRO : [Doctrine\DBAL\Exception\TableNotFoundException]An exception occurred while executing 'INSERT INTO]
-	
-<code>php app/console doctrine:schema:update</code>
-
-<code>php app/console doctrine:fixtures:load </code>
-
-<code>php app/console doctrine:schema:create </code>
-
-<code>php app/console fos:user:create --super-admin </code>
