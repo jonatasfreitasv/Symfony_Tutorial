@@ -1,5 +1,11 @@
 # Symfony 2 Tutorial
 
+### Server
+##### Start HTTP Server
+<code>php app/console server:run</code>
+
+-
+
 ### Check
 #####  Security
 <code>php app/console security:check</code>
@@ -17,14 +23,3 @@
 <code>php app/console generate:controller</code>
 
 -
-
-
-##### Clear Cache
-<code>php app/console doctrine:cache:clear-metadata</code>
-
-<code>php app/console doctrine:cache:clear-query</code>
-
-<code>php app/console doctrine:cache:clear-result</code>
-
-##### Update Database Schema
-<code>php app/console doctrine:schema:update --force</code>
